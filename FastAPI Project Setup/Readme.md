@@ -34,5 +34,11 @@ my_project/
 run "poetry install"
 run "python src/main.py"
 
+## to setup tests
+run "pip install pytest"
+"poetry add pytest"
+
+## to run test
+cd to tests folder run "pytest"
 
 ## setup sonar can be done
